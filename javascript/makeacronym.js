@@ -7,8 +7,9 @@ function toAcronym(inp){
         acronym = word.substr(word.length-1);
         string = string + acronym; 
     }
-    console.log(string);
-    return string; 
+    console.log(string.toUpperCase());
+    return string.toUpperCase();
+    console.log(string.toUpperCase());
 
 }
 
